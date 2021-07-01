@@ -1,0 +1,17 @@
+Comer Sud Catania - Database auto usate
+
+
+N° telaio: CHAR(17) - PRIMARY_KEY       // NOT_NULL e UNIQUE sono impostati di default in quanto PRIMARY_KEY
+Marca: VARCHAR(13) - NOT_NULL
+Modello: VARCHAR(13) - NOT_NULL
+Data di immatricolazione: DATE NOT_NULL 
+Costo: FLOAT(6, 2) - NOT_NULL
+Paese di origine: VARCHAR(12) - NULL
+Km percorsi: FLOAT(6, 2) - NOT_NULL 
+Alimentazione: VARCHAR(15) - NOT_NULL
+Cilindrata: FLOAT(1, 3) - NOT_NULL
+Cavalli: VARCHAR(3) - NULL
+Kw: VARCHAR(3) - NULL 
+Colore: VARCHAR(15) - NULL 
+N° proprietari: TINYINT - NULL - DEFAULT(1)
+N° posti omologati: TINYINT - NULL 
